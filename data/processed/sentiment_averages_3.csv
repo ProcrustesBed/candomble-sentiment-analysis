@@ -1,0 +1,13 @@
+metric;value
+mean_vader;0.46
+mean_vader_purged;0.68
+std_vader;0.38
+std_vader_purged;0.24
+mean_leia;0.52
+mean_leia_purged;0.64
+std_leia;0.35
+std_leia_purged;0.27
+mean_llm;0.66
+mean_llm_purged;0.7
+std_llm;0.29
+std_llm_purged;0.24

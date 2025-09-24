@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# VSCode
+.vscode/
+
+# Data
+/data/raw/*
+/data/processed/*
+
+# API Keys / Umgebungen
+.env
+openai_api_key.txt
+
+# Plots, Bilder, Outputs
+*.png
+*.jpg
+*.pdf
+*.svg
+
+# System
+.DS_Store
+Thumbs.db

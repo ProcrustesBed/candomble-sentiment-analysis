@@ -1,0 +1,6 @@
+metric;value
+mean_vader;0.46
+mean_leia;0.24
+mean_vader_purged;0.69
+mean_leia_purged;0.57
+emoji_only_count;382.0

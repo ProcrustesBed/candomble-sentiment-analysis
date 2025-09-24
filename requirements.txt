@@ -1,0 +1,7 @@
+pandas
+regex
+matplotlib
+numpy
+vaderSentiment
+leia
+openai
