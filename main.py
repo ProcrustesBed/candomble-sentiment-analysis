@@ -6,7 +6,7 @@ from src.visualization import sentiment_plotter
 def main():
     df = pd.read_csv('/Users/Shared/candomble_sentiment_analysis/data/raw/vader_instagram_comments.csv', sep=';')
 
-    df = analyze_all(df, use_llm=True)
+    df = analyze_all(df, use_llm=False)
 
     df.to_csv('/Users/Shared/candomble_sentiment_analysis/data/processed/vader_leia_instagram_comments_final.csv', sep=';', index=False, decimal = ",")
 

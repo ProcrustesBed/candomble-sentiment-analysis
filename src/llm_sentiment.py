@@ -1,10 +1,8 @@
 from openai import OpenAI
 import pandas as pd
+import os
 
-auth_key = "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"
-
-# Client initialisieren (API-Key als Umgebungsvariable OPENAI_API_KEY setzen!)
-client = OpenAI(api_key=auth_key)
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 # Kommentare laden
 df = pd.read_csv("/Users/Shared/candomble_sentiment_analysis/data/raw/vader_instagram_comments.csv", sep=";")
